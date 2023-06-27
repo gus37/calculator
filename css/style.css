@@ -1,0 +1,83 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Merriweather:ital,wght@1,300&display=swap');
+
+/*     font-family: 'Caprasimo', cursive;
+
+    font-family: 'Merriweather', serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(https://fondosmil.com/fondo/24390.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    font-family: 'Merriweather', serif;
+}
+
+.calculadora {
+    background: rgb(195, 161, 34);
+    background: linear-gradient(0deg, rgba(195, 161, 34, 1) 0%, rgba(238, 253, 45, 1) 100%);
+    color: white;
+    width: 350px;
+    max-width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+}
+
+.pantalla {
+    grid-column: 1/-1;
+    background-image: linear-gradient(rgba(192, 240, 240, 0.76), rgba(244, 234, 46, 0.73)), url(https://images.milenio.com/4ojwP0YLakfqUsYwpdcbyvIv_b4=/375x0/uploads/media/2014/07/16/bob-esponja-ha-conquistado-tambien.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: right;
+    color: black;
+    text-shadow: 0 0 10px rgb(123, 162, 6);
+    border: #090c31 solid 2px;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background-color: #15173c;
+    color: white;
+    border: 0;
+    padding: 1.5rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-family: 'Caprasimo', cursive;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: rgb(123, 162, 6);
+}
+
+.cero {
+    grid-column: span 2;
+}
+
+.igual {
+    grid-row: span 2;
+    background-color: #e6394a;
+}
+
+.igual:hover {
+    background-color: #e65766;
+}
