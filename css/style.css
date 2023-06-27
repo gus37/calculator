@@ -44,6 +44,7 @@ body {
     padding: 1.5rem;
     font-size: 2rem;
     text-align: right;
+    overflow: auto;
     color: black;
     text-shadow: 0 0 10px rgb(123, 162, 6);
     border: #090c31 solid 2px;
